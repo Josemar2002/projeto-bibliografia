@@ -1,8 +1,3 @@
-:root{
-    var{
-       ---color-01: black;
-    }
-}
 *{
     box-sizing:border-box ;
 }
@@ -68,7 +63,7 @@ a{
 }
 .but{
     margin-left: 500px;
-    background-color: rgb(4, 4, 148);
+    background-color: rgb(3, 59, 85);
     color: white;
     font-weight: bold;
     padding: 10px;
