@@ -3,14 +3,15 @@
 }
 body{
     
-    margin: auto;
+    margin-right: 500px;
+    
     padding: 0px;
-    /* background-image: url(./imagens/astro.jpg) ;
+    background-image: url(./imagens/astro.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover; */
-    background:linear-gradient(to bottom,#000000,rgb(11, 0, 51));
+    background-size: cover;
+  
     
 
 } 
@@ -25,90 +26,72 @@ h1{
     margin-top: 50px;
   
 }
+
 h2{
+    padding-top: 20px;
     color: aqua;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 65px;
    
 }
+.div01{
+    margin-left: 350px;
+}
 .div02{
-    width: 100%px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
+    border-radius: 20%;
     margin-left: inherit;
+    background:linear-gradient(to bottom,#000000,rgb(68, 2, 88));
+    /* background-color: rgb(26, 13, 199); */
+    /* background-image: -o-linear-gradient(to top black, blue); */
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
-    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(239, 245, 245);
+    margin: 30px;
     padding: 20px;
     
 }
-
-.div01 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-
-a img{
-    margin-left: 10%;
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    
-}
-a .texto{
-    margin: inherit;
-    margin-left: 40%;
-}
-
 a{
     text-decoration:none;
+    margin-left: 70%;
 }
 .but{
+
+    width: 185px;
+    margin-right: 200px;
     margin-left: 479px;
-    background-color: rgb(3, 59, 85);
+    background-color: rgb(0, 5, 7);
     color: white;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 30%;
+    padding: 20px;
+    border-radius: 40%;
     border: 2px solid aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
     
 
 }
 .but:hover{
 
-    background-color: rgb(3, 248, 77);
-    color: black;
+    background-color: rgb(3, 18, 66);
+    color: rgb(243, 238, 238);
     font-weight: bold;
-    border-radius: 30%;
+    border-radius: 40%;
     border: 2px solid aqua;
     
 }
 footer{
+    width: 700px;
+    height: 100px;
     text-align: center;
     font-size: 20px;
-    background:linear-gradient(to top,#000000, rgb(11, 0, 51));
-    height: 200px;
-   width: 100%;
    color: aqua;
-   padding: 50px;
     
 }
 
-/* @keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-} */
-.rotate-imagem{
-   transition: transform 1s ease;
-}
-.rotate-imagem:hover {
-    transform: rotateY(180deg);
-}
+
+
