@@ -15,19 +15,19 @@ body{
     
 
 } 
-h1{
+ h1{
     color: aqua;
     font-family: 'Croissant One', cursive;
     font-family: 'Lora', serif;
     font-family: 'Young Serif', serif;
     font-size: 50px;
-    position: absolute;
-    top: 70px;
-    right:80px;
+    position: relative;
+    top: 160px;
+    left:760px;
     bottom: 10px;
-
   
 }
+
 
 h2{
     padding-top: 20px;
@@ -46,9 +46,7 @@ h2{
     position: absolute;
     top: 300px;
     right: 20px;
-    background:linear-gradient(to bottom,#000000,rgb(68, 2, 88));
-    /* background-color: rgb(26, 13, 199); */
-    /* background-image: -o-linear-gradient(to top black, blue); */
+    background:linear-gradient(to bottom,#000000,#7777 ,rgb(12, 7, 59));
 }
 
 p{
@@ -65,17 +63,18 @@ a{
 }
 .but{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
    
     width: 185px;
     
-    background-color: rgb(0, 5, 7);
+    background:linear-gradient(to bottom,#000000,#1402b477 );
     color: white;
     font-weight: bold;
     padding: 20px;
-    border-radius: 40%;
-    border: 2px solid aqua;
+    border-radius: 10PX;
+    border: 2px solid rgb(24, 143, 253);
+    transition: all 3s linear;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 
     
@@ -83,15 +82,17 @@ a{
 }
 .but:hover{
 
-    background-color: rgb(3, 18, 66);
+    background-color: rgb(3, 56, 231);
     color: rgb(243, 238, 238);
     font-weight: bold;
     border-radius: 40%;
-    border: 2px solid aqua;
+    box-shadow: 5px 5px  10px aqua;
     
 }
 footer{
-    margin-right: 100%;
+    display: flex;
+   position: relative;
+   left: 0;
     width: 100%;
    height: 100px;
     font-size: 20px;
