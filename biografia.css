@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cont {
+    height: 100%;
+    padding-left: 200px;
+    padding-right: 200px ;
+}
+
+
+.h1 {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2px;
+
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.t1 {
+    width: 580px;
+    height: 300px;
+   font-size: 20px;
+   text-align: justify;
+    
+}
+
+.t2 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 68%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:250px;
+}
+
+/*------------IMAGEM------------*/
+
+img {
+    border-radius: 780px;
+    width: 250px;
+}
+
+/*-----------------------------*/
+
+/*------------BOTÃO------------*/
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    transition: .5s;
+    position: fixed;
+}
+
+ a:hover {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*-----------------------------*/
+
+.sub {
+    font-weight: bold;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto p, .teste{
+
+text-align: justify;
+font-size: 20px;
+
+}
+
+
+.p1 {
+    margin-bottom: 0;
+}
