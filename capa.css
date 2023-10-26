@@ -21,7 +21,8 @@ body{
     font-family: 'Lora', serif;
     font-family: 'Young Serif', serif;
     font-size: 50px;
-    bottom: 10px;
+    position: relative;
+    top: 60px;
     margin-left: 40px;
     margin-right: 30px;
     -webkit-text-stroke: #ffffff 0.5px;
@@ -60,8 +61,9 @@ a{
 
 }
 .but{
-    top: 30px;
-    right: 30px;
+    position:absolute;
+    top: 20px;
+    right: 10px;
     width: 185px; 
     background:linear-gradient(to bottom,#000000,#1402b477 );
     color: white;
@@ -93,9 +95,6 @@ footer {
     margin-top: 100px;
     margin-left: 250px;
     margin-right:200px;
-
- 
-    
 }
 
 footer a{
@@ -126,4 +125,14 @@ footer a{
     align-items: flex-end;
     height: 1080px;
 }
-
+.nome{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    justify-self: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: end;
+   margin-bottom: 0px;
+}
