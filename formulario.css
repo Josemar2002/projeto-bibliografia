@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border:1px solid red ;
+    height: 650px;
+}
+.form{
+    width: 600px;
+    height: 400px;
+    font-size: 16px;
+    background-color: #777;
+    padding: 50px;
+}
+input
